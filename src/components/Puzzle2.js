@@ -1,3 +1,8 @@
+/*
+Create a React application that displays a dynamic list of items. 
+Each item in the list should have a checkbox that, when clicked, adds a strikethrough to the item's text, indicating it as completed.
+*/
+
 import React, { useState } from 'react'
 
 const Puzzle2 = () => {

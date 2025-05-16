@@ -1,5 +1,3 @@
-import React, { useState } from 'react'
-
 /*
 Create a React application that checks the strength of a password entered by the user. 
 The application should display a visual indicator of the password's strength, with the following criteria: 
@@ -7,6 +5,8 @@ Weak (less than 8 characters)
 Medium (8-12 characters) 
 Strong (more than 12 characters)
 */
+
+import React, { useState } from 'react'
 
 const Puzzle4 = () => {
   const [password, setPassword] = useState("");
