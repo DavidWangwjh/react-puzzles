@@ -77,7 +77,7 @@ export const puzzles = [
     },
     { 
       title: "6 - Dynamic Movie List with Filtering and Sorting", 
-      description: "Create a React application that displays a dynamic list of movies, allowing users to filter by genre and sort by title or release year.",
+      description: "Create a React application that displays a dynamic list of movies. The application should allow users to filter movies by genre and sort movies by title or release year.",
       component: Puzzle6
     },
     { 
