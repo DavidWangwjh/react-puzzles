@@ -92,7 +92,7 @@ export const puzzles = [
     },
     { 
       title: "9 - Meme Generator with Custom Text", 
-      description: "Create a React application that generates memes with custom text overlays.",
+      description: "Create a React application that generates memes with custom text.",
       component: Puzzle9
     },
     { 
