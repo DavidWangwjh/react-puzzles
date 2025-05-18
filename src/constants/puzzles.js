@@ -102,7 +102,7 @@ export const puzzles = [
     },
     { 
       title: "11 - Simple Quiz App with Multiple Choice", 
-      description: "Create a React application that presents multiple-choice quiz questions, allowing users to select answers and track their score.",
+      description: "Create a React application that presents a simple quiz with multiple-choice questions. The app should display the questions, options, and user scores.",
       component: Puzzle11
     },
     { 
