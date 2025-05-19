@@ -97,8 +97,8 @@ const Puzzle11 = () => {
           <ul style={{ listStyleType: 'none', display: 'flex', flexDirection: 'column', gap: '5px' }}>
             {QUESTIONS[currentQuestionIdx].options.map((option, idx) => (
               <li key={idx}>
-                <input type='radio' value={option} checked={selectedAnswer === option} onChange={() => setSelectedAnswer(option)}/>
-                <label>{option}</label>
+                <input id={option} type='radio' value={option} checked={selectedAnswer === option} onChange={() => setSelectedAnswer(option)}/>
+                <label for={option}>{option}</label>
               </li>
             ))}
           </ul>
