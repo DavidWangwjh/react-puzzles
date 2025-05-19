@@ -107,7 +107,7 @@ export const puzzles = [
     },
     { 
       title: "12 - Unit Converter", 
-      description: "Create a React component that converts values between different units of measurement (e.g., Celsius to Fahrenheit, meters to feet), updating the result dynamically.",
+      description: "Create a React application that allows users to convert between different units of measurement (temperature, length, weight, etc.).",
       component: Puzzle12
     },
     { 
